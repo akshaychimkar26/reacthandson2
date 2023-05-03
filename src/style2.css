@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+}
+.App{
+    background-image:linear-gradient(lightseagreen,red,yellow);
+    height:100vh;
+}
+.heading{
+    text-align: center;
+}
+.form{
+    text-align: center;
+}
+.i1{
+    border-radius: 25px;
+    font-size: 20px;
+    background-color: skyblue;
+    height:40px;
+}
+.i2{
+    width:150px;
+    font-size: 20px;
+    border-radius: 20px;
+    background-color: skyblue;
+}
+.l1{
+    font-size: 20px;
+}
+.result{
+    border: 1px solid black;
+    width:90%;
+    background-color: skyblue;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap : 20px;
+    justify-content: center;
+    padding : 20px;
+}
+
+.resultin{
+    border: 1px solid black;
+    width:500px;
+    border-radius: 30px;
+    background-color: pink;
+    text-align: center;
+    margin: 10px;
+    padding: 30px;
+}
+
+.resultContainer
+{
+    margin-top : 10px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
